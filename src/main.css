@@ -1,0 +1,19 @@
+html, body {
+    font-family: monospace;
+    background-color: #1e1e1e;
+    color: #9a9a9a;
+}
+
+#display {
+    display: flex;
+}
+
+#grids {
+    position: relative;
+}
+
+#grids > canvas:not(:first-child) {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
